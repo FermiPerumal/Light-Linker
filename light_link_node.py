@@ -31,7 +31,7 @@ import maya.OpenMaya as omaya
 import maya.OpenMayaMPx as omayampx
 
 # custom
-import light_link_bject as link
+import light_link_bject as llo
 
 #-----------------------------------------------------------------------------#
 #------------------------------------------------------------------ GLOBALS --#
@@ -81,7 +81,7 @@ class LightLinkNode(omayampx.MPxNode):
         """
         omayampx.MPxNode.__init__(self)
 
-        lightLinkObj = link.LightLinkJsonObject(lightlink_json)
+        lightLinkObj = llo.LightLinkJsonObject(lightlink_json)
 
     def compute(self, plug, data):
         """
