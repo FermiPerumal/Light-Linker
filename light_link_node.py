@@ -90,7 +90,7 @@ class LightLinkNode(omayampx.MPxNode):
         lightName = data.inputValue(LightLinkNode.inLightAttr).asString()
         lightLinkAssets = LightLinkNode.lightLinkObj.get_assets()
         lightLinked = LightLinkNode.lightLinkObj
-                                   .get_lightlinks(lightName)
+                                   .get_links(lightName)
         assetArrayHandle = data.outputArrayValue(LightLinkNode.outAssetsAttr)
         assetArrayBuilder = omaya.MArrayDataBuilder(
                                                 LightLinkNode.outAssetsAttr,
