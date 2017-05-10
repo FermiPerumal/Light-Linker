@@ -31,7 +31,7 @@ import maya.OpenMaya as omaya
 import maya.OpenMayaMPx as omayampx
 
 # custom
-import lightLinkObject as link
+import light_link_bject as link
 
 #-----------------------------------------------------------------------------#
 #------------------------------------------------------------------ GLOBALS --#
